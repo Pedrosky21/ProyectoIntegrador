@@ -33,36 +33,29 @@ header {
     margin-right: 2.5%;
 }
 
-div {
-    display: flex;
-    flex-direction: row;
-}
-
 .images_titulos {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*El width a 33 para que los 3 enlaces entren en la misma linea*/
+    width: 33%;
     color: blue;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    font-size: 50px;
 }
 
 .images_titulos:hover {
     background-color: lightblue;
-    padding: 1%;
 }
 
 .img_fila {
     width: 100%;
-    height: 300px;
-}
-
-figure {
-    margin: 100px;
 }
 
 figcaption {
-    width: 300px;
     margin-top: 10px;
     text-align: center;
+    font-size: 150%;
 }
 
 h2 {
@@ -91,7 +84,7 @@ ul {
     border-radius: 50px;
     font-family: 'Rubik', sans-serif;
     color: white;
-    margin-left: 90%;
+    margin-left: 15px;
     padding: 5px;
 }
 
